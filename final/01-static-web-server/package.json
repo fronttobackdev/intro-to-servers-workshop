@@ -1,0 +1,17 @@
+{
+	"name": "final-01-static-web-server",
+	"private": true,
+	"sideEffects": false,
+	"scripts": {
+		"dev": "node scripts/dev.js",
+		"start": "node server/index.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	}
+}
