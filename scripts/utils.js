@@ -111,3 +111,12 @@ export async function resolveAppPath(pathStart) {
 		path.resolve(dir).startsWith(path.resolve(pathStart))
 	);
 }
+
+/**
+ * @param {string} pathname
+ */
+export async function ensureDir(pathname) {
+	if (!(await isDirectory(pathname))) {
+		await fs.promises.mkdir(pathname, { recursive: true });
+	}
+}
