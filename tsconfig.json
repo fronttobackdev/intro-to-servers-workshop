@@ -3,6 +3,7 @@
 	"exclude": ["node_modules"],
 	"references": [
 		{ "path": "scripts" },
+		{ "path": "final/01-static-web-server" }
 
 		// TODO: Add references here as you add lessons
 		// { "path": "exercise/01-lesson" },

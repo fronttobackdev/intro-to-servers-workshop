@@ -55,7 +55,7 @@ By the end of this workshop, you should have a solid understanding of:
 ## System Requirements
 
 - git
-- NodeJS 16+
+- NodeJS 20+
 - npm v8+
 
 ## Setup
